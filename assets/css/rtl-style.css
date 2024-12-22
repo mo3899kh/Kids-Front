@@ -1,0 +1,143 @@
+.season__content {
+  padding-left: 10px;
+  padding-right: 105px;
+}
+.my__cart {
+  right: auto;
+  left: 85px;
+}
+.mobile_top a {
+  left: auto;
+  right: 0px;
+  transform: rotate(180deg);
+}
+
+.account__form__img {
+  left: auto;
+  right: 0px;
+}
+
+.account__form__content {
+  margin-left: 0px;
+  margin-right: auto;
+}
+.logo-area a img {
+  transform: rotate(180deg);
+}
+
+.form-select {
+  background-position: left 0.75rem center;
+}
+.season__wrap2 .season__content1 {
+  padding-left: 0px;
+  padding-right: 106px;
+}
+.prduct-share {
+  right: auto;
+  left: 0px;
+}
+.accordion-header1 .accordion-button::after {
+  transform: rotate(90deg);
+}
+
+.mycart__select .select__marker,
+.mycart__select .select__marker1 {
+  left: 0px !important;
+  right: auto !important;
+}
+
+.select__marker {
+  left: 4px;
+  right: auto;
+}
+.signin__wrap form .input__field a {
+  text-align: left;
+  font-size: var(--f18);
+}
+.skip__btn {
+  text-align: left;
+}
+.product__cart__select .form-select {
+  background-position: right 0.75rem center;
+}
+.exluslive__product__slide__card a {
+  right: auto;
+  left: 8px;
+}
+.mobile_top_wrap a:last-child {
+  left: 0px;
+  right: auto;
+}
+.all__dashboard__btn ul li a svg:last-child {
+  right: auto;
+  left: 19px;
+}
+
+.select-menu .options {
+  left: auto;
+  right: auto;
+  left: 0;
+}
+
+.select-menu .options .option {justify-content: end;}
+.dropdown button svg {
+  margin-left: 0;
+  margin-right: 6px;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: auto;
+  right: 10px;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: auto;
+  left: 10px;
+}
+/* .logo-area svg {
+  transform: rotate(180deg);
+} */
+/* Tablet screen :768px. */
+@media (min-width: 320px) and (max-width: 991px) {
+  .season__content {
+    width: 90%;
+  }
+  .season__wrap2 .season__content1 {
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+  .season__content {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+/* small screen :320px. */
+
+@media (max-width: 767px) {
+  .content__season a {
+    right: auto;
+    left: 14px;
+  }
+  .season__content {
+    width: 100%;
+    padding-top: 109px;
+    padding-right: 19px;
+    padding-left: 15px;
+  }
+  ul.track__order__list {
+    padding-right: 25px;
+    padding-left: 0px;
+  }
+
+  ul.track__order__list::before {
+    left: auto;
+    right: 7px;
+  }
+
+  ul.track__order__list li::before {
+    left: 0px;
+    right: -25px;
+  }
+}
+
+
+
